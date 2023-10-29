@@ -11,4 +11,6 @@ Projects and Complete Youtube Clone using Html & CSS
 
 You can get Complete Documentation here 
 
+[Doc](https://docs.google.com/document/d/1X9N55Ny1MzMoAHzNm4TybuEH82qsTWJW7iN-srm47UU/edit)
+
 
