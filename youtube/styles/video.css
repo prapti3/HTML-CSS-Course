@@ -1,7 +1,6 @@
-
-
 .thumbnail {
     width: 100%;
+
     /* object-fit: contain;
     object-position: center;
     border-style: solid;
@@ -16,7 +15,7 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 .video-author,
@@ -45,7 +44,7 @@ display: inline-block;
 .video-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap:16px;
+    column-gap: 16px;
     row-gap: 40px;
 
 }
@@ -74,10 +73,28 @@ display: inline-block;
 }
 
 .profile-picture {
-    width: 100%;
+    width: 36px;
     border-radius: 40px;
 }
 
 .thumbnail-row {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.video-time {
+
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 2px;
+    font-family: 'Roboto', Arial;
 }

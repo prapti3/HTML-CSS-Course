@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -17,15 +18,60 @@
 <body>
     <div class="header">
         <div class="left-section">
-            left-section
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+            <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
         </div>
-        <div class="middle-section"> <input class="search-bar" type="text" placeholder="Search"></div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg" alt="">
+                <div class="tooltip">search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
         <div class="right-section">
-            right-section
+            <img class="upload-icon" src="icons/upload.svg" alt="">
+            <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="">
+            <div class="notifications-icon-container">
+                <img class="notifications-icon" src="icons/notifications.svg" alt="">
+                <div class="notifications-count">3
+                </div>
+            </div>
+            <img class="curretn-user-picture" src="profile-pic/my-channel.jpeg" alt="">
         </div>
 
     </div>
 
+    <div class="sidebar">
+        <div class="sidebar-link">
+            <img src="icons/home.svg" alt="">
+            <div class="sidebar-title">Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/explore.svg" alt="">
+            <div class="sidebar-title">Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/subscriptions.svg" alt="">
+            <div class="sidebar-title">Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/originals.svg" alt="">
+            <div class="sidebar-title">Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/youtube-music.svg" alt="">
+            <div class="sidebar-title">Youtube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/library.svg" alt="">
+            <div class="sidebar-title">Library</div>
+        </div>
+
+    </div>
 
 
 
@@ -38,7 +84,9 @@
             <div class="thumbnail-row">
                 <!-- it will store only img so no futher division -->
                 <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-
+                <div class="video-time">
+                    14:20
+                </div>
             </div>
 
             <div class="video-info-grid">
@@ -48,6 +96,7 @@
 
                 <div class="channel-pic">
                     <img class="profile-picture" src="profile-pic/channel-1.jpeg" alt="">
+
                 </div>
                 <div class="video-info">
                     <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
@@ -66,6 +115,9 @@
             <!-- creating first vertical layout -->
             <div class="thumbnail-row">
                 <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+                <div class="video-time">
+                    8:22
+                </div>
             </div>
 
             <div class="video-info-grid">
@@ -92,7 +144,9 @@
             <div class="thumbnail-row">
                 <!-- it will store only img so no futher division -->
                 <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
-
+                <div class="video-time">
+                    9:13
+                </div>
             </div>
 
             <div class="video-info-grid">
@@ -120,6 +174,9 @@
             <!-- creating first vertical layout -->
             <div class="thumbnail-row">
                 <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+                <div class="video-time">
+                    22:09
+                </div>
             </div>
 
             <div class="video-info-grid">
@@ -145,7 +202,9 @@
             <div class="thumbnail-row">
                 <!-- it will store only img so no futher division -->
                 <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
-
+                <div class="video-time">
+                    11:17
+                </div>
             </div>
 
             <div class="video-info-grid">
@@ -174,6 +233,9 @@
             <!-- creating first vertical layout -->
             <div class="thumbnail-row">
                 <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+                <div class="video-time">
+                    19:59
+                </div>
             </div>
 
             <div class="video-info-grid">
@@ -197,6 +259,9 @@
             <!-- creating first vertical layout -->
             <div class="thumbnail-row">
                 <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+                <div class="video-time">
+                    10:13
+                </div>
             </div>
 
             <div class="video-info-grid">
@@ -220,6 +285,9 @@
             <!-- creating first vertical layout -->
             <div class="thumbnail-row">
                 <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+                <div class="video-time">
+                    7:12
+                </div>
             </div>
 
             <div class="video-info-grid">
@@ -244,6 +312,9 @@
             <!-- creating first vertical layout -->
             <div class="thumbnail-row">
                 <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+                <div class="video-time">
+                    13:17
+                </div>
             </div>
 
             <div class="video-info-grid">
@@ -251,6 +322,7 @@
 
                 <div class="channel-pic">
                     <img class="profile-picture " src="profile-pic/channel-9.jpeg" alt="profile-pic">
+
                 </div>
                 <div class="video-info">
                     <p class="video-title">
@@ -269,6 +341,9 @@
             <!-- creating first vertical layout -->
             <div class="thumbnail-row">
                 <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+                <div class="video-time">
+                    7:53
+                </div>
             </div>
 
             <div class="video-info-grid">
@@ -294,6 +369,9 @@
             <!-- creating first vertical layout -->
             <div class="thumbnail-row">
                 <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+                <div class="video-time">
+                    4:10
+                </div>
             </div>
 
             <div class="video-info-grid">
@@ -319,6 +397,9 @@
             <!-- creating first vertical layout -->
             <div class="thumbnail-row">
                 <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
+                <div class="video-time">
+                    4:51
+                </div>
             </div>
 
             <div class="video-info-grid">
