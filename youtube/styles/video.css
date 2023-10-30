@@ -1,8 +1,4 @@
-p {
-    font-family: 'Roboto', Arial;
-    margin-top: 0;
-    margin-bottom: 0;
-}
+
 
 .thumbnail {
     width: 100%;
@@ -13,11 +9,6 @@ p {
     /* display: block; */
 }
 
-.search-bar {
-    /* font-size: 20px;
-    margin-left: 12px; */
-    display: block;
-}
 
 .video-title {
     /* width: 300px; */
